@@ -11,3 +11,8 @@ further:
 lotta boredom ~ meow
 
 required packages so far: python-selenium, numpy
+
+
+- getinfo.py: catch input from website
+- getreversed.py: get translation/conjugation etc(dictionary)  https://jisho.org/ https://en.openrussian.org/
+- idfk how to do gui with python yet
