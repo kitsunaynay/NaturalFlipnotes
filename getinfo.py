@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import numpy as np
 
 def main():
-    driver = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver')
+    driver = webdriver.Firefox()
     driver.get('https://nukadeti.ru/skazki/carevna_lyagushka')
     text = driver.find_element(By.CLASS_NAME, 'tale-text')
     blocks = text.find_elements(By.TAG_NAME, 'p')
